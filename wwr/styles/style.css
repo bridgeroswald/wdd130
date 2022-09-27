@@ -95,8 +95,13 @@ h2, h3, h4, h5, h6 {
 
 
 
+#content {
+  max-width: 1600px;
 
-
+}
+#background {
+  height: 725px;
+}
 
   h2 {
     text-align: center;
@@ -196,8 +201,8 @@ h2, h3, h4, h5, h6 {
   }
   .logo {
   float: left; 
-    width:4em;
-    height: 100%;
+    width:80px;
+
  
     
   }
