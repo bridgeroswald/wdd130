@@ -3,7 +3,6 @@
     height: 725px;
 }
     
-
 :root {
 
   --primary-color: #FF9666   ;
@@ -12,7 +11,8 @@
   --accent2-color: #E9FFF9;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: 'Permanent Marker','Rock Salt', 'Bradley Hand', sans-serif;
+  --heading1-font: 'Permanent Marker','Rock Salt', 'Bradley Hand', sans-serif;
+  --heading-font: 'Bradley Hand', sans-serif;
   --paragraph-font: "Source Sans Pro", Verdana,Tahoma;
 
   --headline-color-on-white: white;  /* headlines on a white background */ 
@@ -81,13 +81,13 @@ body {
     box-sizing:border-box;
   }
   h1 {
-    /* font-family: 'Rock Salt'; */
+   font-family: var(--heading1-font); 
     color: var(--headline-color-on-white);
     font-size: 2em;
   }
 
 h2, h3, h4, h5, h6 {
-    font-family: 'Permanent Marker',"Black Han Sans", "georgia","Tahoma";
+    font-family: var(--heading-font);
     color: var(--headline-color-on-white);
     font-size: 1em;
   }
