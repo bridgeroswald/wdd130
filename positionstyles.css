@@ -173,6 +173,7 @@ float: left;
   width: 100%; 
   height: 20em; 
   background-color: gold; 
+  min-height: 210px;
   block-size: auto;
 
 
