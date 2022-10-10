@@ -100,12 +100,13 @@ body {
 
    h4 {
     font-family: var(--heading-font);
-    color: var(--headline-color-on-white);
+    color: var(--primary-color);
     font-size: 2em;
      text-shadow: -1px 1px 2px var(--primary-color),
 				  1px 1px 2px var(--primary-color),
 				  1px -1px 0 var(--primary-color),
 				  -1px -1px 0 var(--primary-color);
+          margin-bottom: 0%;
    }
 
 
@@ -454,6 +455,7 @@ color: white;
   grid-column: 1/5;
   grid-row: 2/2;
   text-align: center;
+  color: var(--paragraph-color-on-white);
 }
 
 
