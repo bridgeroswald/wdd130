@@ -435,7 +435,7 @@ margin-top: 3%;
 }
 
 .resume-title {
-
+text-align: center;
   grid-column: 2/2;
   grid-row: 4/4;
   margin-top: -300px; 
